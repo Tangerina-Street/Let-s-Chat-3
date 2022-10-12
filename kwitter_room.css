@@ -1,0 +1,28 @@
+body{
+    background-color: aquamarine;
+}
+#logout{
+    background-color: red;
+    margin-left: 1350px;
+    font-family: fantasy;
+}
+h1{
+    font-family: fantasy;
+    text-align: center;
+}
+#addroom{
+    margin-top: 50px;
+    background-color: cornflowerblue;
+    font-family: fantasy;
+}
+#name_of_chatter{
+    color: black;
+    font-family: fantasy;
+}
+div{
+    background-color: white;
+    font-family: fantasy;
+}
+#room{
+    font-family: fantasy;
+}

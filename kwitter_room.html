@@ -1,0 +1,33 @@
+<html>
+    <head> 
+        <title>Room</title>
+        <link rel="stylesheet" type="text/css" href="kwitter_room.css">
+        <script> 
+        const firebaseConfig = {
+            apiKey: "AIzaSyBnt4wWsBtG1skihWHdoa-dvWj3HMA4sUw",
+            authDomain: "let-s-chat-c0336.firebaseapp.com",
+            projectId: "let-s-chat-c0336",
+            storageBucket: "let-s-chat-c0336.appspot.com",
+            messagingSenderId: "77346268410",
+            appId: "1:77346268410:web:b3ce3eda92a8b54eab1543"
+          };
+          
+          const app = initializeApp(firebaseConfig);
+          </script>
+        
+    </head>
+    <body>
+        <h1>Let's Chat!</h1>
+        <button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="Logout()">Log Out</button>
+        <center>
+        <h3 id="welcome"></h3>
+        <br>
+        <input type="text" id="room" class="form-control" placeholder="Enter your room name...">
+        <br>
+        <br>
+        <button onclick="addRoom()" id="addroom">Add Room</button>
+        <h3>Rooms</h3>
+        <div class="container"></div>
+        </center>
+    </body>
+</html>
